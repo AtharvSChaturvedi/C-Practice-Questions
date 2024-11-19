@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main() {
+	float C,F;
+	printf("\nEnter temperature(in F) = ");
+	scanf("%f", &F);
+	C=(F-32.0)/1.8;
+	printf("\nTemperature(in C) = %f\n", C);
+}
